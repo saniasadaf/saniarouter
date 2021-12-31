@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./styles.module.css";
 import Modal from 'react-modal';
-import { Form, Input, Button, Checkbox } from 'antd';
+import { Form, Input, Button } from 'antd';
 
 function Authentication() {
     const onFinish = (values) => {

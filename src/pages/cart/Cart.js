@@ -1,9 +1,12 @@
+import styles from "./styles.module.css"
+
+
 function Cart() {
     return (
-      <div>
+      <div className={styles.cart}>
         <h1>Cart</h1>
         <p>
-          This is the Cart page.
+         Empty Cart
         </p>
       </div>
     );

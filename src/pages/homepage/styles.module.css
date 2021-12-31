@@ -7,5 +7,7 @@
 
 .container {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    background-color: rgb(230, 223, 223);
 }

@@ -4,11 +4,11 @@ import styles from "./styles.module.css";
 
 function Header() {
   return (
-    <header>
+    <header className={styles.head}>
       <ul>
-        <Link to="/"><li>access_</li></Link>
-        <Link to="/cart"><li>cart</li></Link>
-        <Link to="/authentication"><li>login/signup</li></Link>
+        <Link to="/"><li>Products</li></Link>
+        <Link to="/cart"><li>Cart</li></Link>
+        <Link to="/authentication"><li>Login/Signup</li></Link>
       </ul>
     </header>
   );

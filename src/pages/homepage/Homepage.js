@@ -31,8 +31,8 @@ function Home() {
     return (
       <div className={styles.loader_container}>
         <Loader
-          type="Puff"
-          color="#000000"
+          type="ThreeDots"
+          color="grey"
           height={100}
           width={100}
         />
